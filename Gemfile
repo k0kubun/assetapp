@@ -12,6 +12,9 @@ gem 'sass-rails', github: 'rails/sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 
+# Mountable engines providing assets
+gem 'bootstrap-sass'
+
 group :development, :test do
   gem 'pry-rails'
 end
