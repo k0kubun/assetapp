@@ -11,9 +11,11 @@ gem 'puma'
 gem 'sass-rails', github: 'rails/sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
+gem 'erubis' # for rails_admin
 
 # Mountable engines providing assets
 gem 'bootstrap-sass'
+gem 'rails_admin'
 
 group :development, :test do
   gem 'pry-rails'
