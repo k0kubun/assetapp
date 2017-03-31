@@ -17,6 +17,10 @@ gem 'erubis' # for rails_admin
 gem 'bootstrap-sass'
 gem 'rails_admin'
 
+if ENV['SPROCKETS_PATH']
+  gem 'sprockets', path: ENV['SPROCKETS_PATH']
+end
+
 group :development, :test do
   gem 'pry-rails'
   gem 'pry-byebug'
